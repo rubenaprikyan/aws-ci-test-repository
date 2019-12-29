@@ -1,0 +1,25 @@
+{
+  "name": "aws-ci-test-repository",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubenaprikyan/aws-ci-test-repository.git"
+  },
+  "author": "Ruben Aprikyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rubenaprikyan/aws-ci-test-repository/issues"
+  },
+  "homepage": "https://github.com/rubenaprikyan/aws-ci-test-repository#readme"
+}
