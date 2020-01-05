@@ -10,5 +10,4 @@ export PM2_HOME=/home/ec2-user/.pm2
 # cd /home/ec2-user/aws-ci-test-repository
 # cp -r /home/ec2-user/.env /home/ec2-user/aws-ci-test-repository/.env
 
-npm run migrate
-pm2 restart all
+npm start
