@@ -12,6 +12,10 @@ router.get('/deploy', (ctx) => {
     ctx.body = "congrats deployed!!!"
 });
 
+router.get('/build', (ctx) => {
+    ctx.body = "congrats build!!!"
+});
+
 const App = new Koa();
 
 App.use(router.routes());
