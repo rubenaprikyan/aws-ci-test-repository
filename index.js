@@ -16,6 +16,10 @@ router.get('/build', (ctx) => {
     ctx.body = "congrats build!!!"
 });
 
+router.get('/build-test', (ctx) => {
+    ctx.body = "congrats build-test!!!"
+});
+
 const App = new Koa();
 
 App.use(router.routes());
