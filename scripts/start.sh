@@ -7,7 +7,7 @@ NVM_BIN=/home/ec2-user/.nvm/versions/node/v12.14.0/bin
 source /home/ec2-user/.bash_profile
 export PM2_HOME=/home/ec2-user/.pm2
 
-# cd /home/ec2-user/aws-ci-test-repository
+cd /home/ec2-user/aws-ci-test-repository
 # cp -r /home/ec2-user/.env /home/ec2-user/aws-ci-test-repository/.env
 
 npm start
