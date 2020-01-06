@@ -1,10 +1,11 @@
+---
 files:
 -
-    destination: /home/ec2-user/aws-ci-test-repository
-    source: /
+  destination: /home/ec2-user/aws-ci-test-repository
+  source: /
 hooks:
-    ApplicationStart:
-    -
+  ApplicationStart:
+  -
     location: scripts/start.sh
     timeout: 300
     runas: root
